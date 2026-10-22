@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff9f1" />
+    <meta name="description" content="MELLOORA Mood Meal — pick your mood, pick your meal." />
+    <title>MELLOORA — Mood Meal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/app.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Melloora home">MELLOORA<span>®</span><small>MOOD MEAL</small></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#concept">The concept</a><a href="#moods">Mood menu</a><a href="#story">Our story</a><a href="#evidence">Proof</a>
+      </nav>
+      <button class="nav-cta" data-scroll="#moods">Choose a mood <span>↗</span></button>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="pulse-dot"></span> a food-gifting concept by group 21</p>
+          <h1>More than a meal.<br /><em>An emotional experience.</em></h1>
+          <p class="hero-lede">A small, beautiful gift that says exactly what you mean — through a mood, a bite, a sip and a note.</p>
+          <div class="hero-actions"><button class="button button-dark" data-scroll="#moods">Explore the moods <span>↗</span></button><button class="text-link" data-scroll="#story">Discover the journey <span>↓</span></button></div>
+          <div class="hero-note"><span>Pick your mood.</span><b>Pick your meal.</b></div>
+        </div>
+        <div class="hero-art reveal delay-1">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="hero-card poster-card"><img src="./public/images/melloora-poster.jpg" alt="Melloora Mood Meal promotional artwork" /></div>
+          <div class="floating-tag tag-top"><span>01</span> feel it first</div>
+          <div class="floating-tag tag-bottom"><span>♡</span> made to be remembered</div>
+          <div class="petal petal-1">✦</div><div class="petal petal-2">♡</div><div class="petal petal-3">✧</div>
+        </div>
+      </section>
+
+      <section id="concept" class="concept section-shell section-pad">
+        <div class="section-kicker">01 / the idea</div>
+        <div class="split-heading"><h2>A gift with a little <em>feeling</em> built in.</h2><p>Most snacks are chosen by flavour. MELLOORA is chosen by what you want someone to feel. We combine food, drink, message and mood in one ready-to-gift experience.</p></div>
+        <div class="ingredient-grid">
+          <article class="ingredient-card"><span class="ingredient-number">01</span><div class="ingredient-icon">✦</div><h3>Winter melon cookies</h3><p>Three hand-decorated bites with butterfly pea lemon icing.</p></article>
+          <article class="ingredient-card"><span class="ingredient-number">02</span><div class="ingredient-icon">◌</div><h3>A matching milk</h3><p>Rose milk for affection or mango milk for a sunny lift.</p></article>
+          <article class="ingredient-card"><span class="ingredient-number">03</span><div class="ingredient-icon">♡</div><h3>A personal note</h3><p>A mood-linked card that turns a pretty box into a meaningful one.</p></article>
+          <article class="ingredient-card featured-ingredient"><span class="ingredient-number">04</span><div class="ingredient-icon">▱</div><h3>Gift-ready by design</h3><p>Compact transparent packaging that feels special without the hamper price tag.</p></article>
+        </div>
+      </section>
+
+      <section id="moods" class="moods section-pad">
+        <div class="section-shell">
+          <div class="section-kicker">02 / choose a feeling</div>
+          <div class="mood-header"><div><h2>What are you sending?</h2><p>Two ways to say something without saying too much.</p></div><div class="mood-switch" role="tablist"><button class="mood-tab active" data-mood="love" role="tab">Love Bloom</button><button class="mood-tab" data-mood="sunny" role="tab">Sunny Smile</button></div></div>
+          <div class="mood-stage" data-theme="love">
+            <div class="mood-info"><p class="mood-overline">for affection, appreciation & little celebrations</p><h3 class="mood-title">Love <em>Bloom</em></h3><p class="mood-description">A rose-tinted pause for the people who make ordinary days feel softer.</p><div class="mood-details"><div><span>inside</span><b>rose milk · 3 cookies · loving note</b></div><div><span>best for</span><b>thank-yous · anniversaries · just because</b></div></div><button class="button button-light" data-scroll="#gallery">See it in the wild <span>↗</span></button></div>
+            <div class="mood-product"><div class="product-shadow"></div><img src="./public/images/melloora-poster.jpg" alt="Love Bloom package from Melloora" /><div class="product-sticker">handmade<br /><strong>with feeling</strong></div></div>
+            <div class="mood-aside"><span class="aside-label">MELLOORA / 01</span><div class="swatch swatch-pink"></div><p>“A small gift for a very big feeling.”</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="story section-shell section-pad">
+        <div class="section-kicker">03 / from idea to innovation</div>
+        <div class="story-intro"><h2>Thoughtful from the <em>first sketch.</em></h2><p>We listened, tested, adjusted and shaped MELLOORA around the moments people actually gift for.</p></div>
+        <div class="story-grid">
+          <div class="story-media large-media"><img src="./public/images/melloora-poster.jpg" alt="Melloora concept poster with product and research snapshots" /><span>the original concept board</span></div>
+          <div class="story-timeline"><div class="timeline-item"><span>01</span><div><h3>Spot the gap</h3><p>Between an everyday snack and an over-the-top hamper.</p></div></div><div class="timeline-item"><span>02</span><div><h3>Listen to people</h3><p>102 responses helped us understand what makes a gift feel worth giving.</p></div></div><div class="timeline-item"><span>03</span><div><h3>Make it tangible</h3><p>From recipe trials to packaging, the concept became something you can hold.</p></div></div><div class="timeline-item"><span>04</span><div><h3>Show the feeling</h3><p>Two moods, one promise: affordable gifting that still feels personal.</p></div></div></div>
+        </div>
+      </section>
+
+      <section id="evidence" class="evidence section-pad">
+        <div class="section-shell"><div class="section-kicker">04 / the proof</div><div class="evidence-head"><h2>A feeling people <em>understood.</em></h2><p>Our market validation points to a concept that is not only pretty, but practical.</p></div><div class="stat-grid"><div class="stat-card stat-main"><strong>82.4<span>%</span></strong><p>positive purchase intention</p><small>of 102 respondents said they would definitely or probably buy.</small></div><div class="stat-card"><strong>4.34<span>/5</span></strong><p>concept rating</p><div class="mini-bars"><i style="height:42%"></i><i style="height:55%"></i><i style="height:68%"></i><i style="height:84%"></i><i style="height:96%"></i></div></div><div class="stat-card"><strong>68.6<span>%</span></strong><p>university student respondents</p><small>Right where our first audience lives.</small></div><div class="stat-card"><strong>Rs 230</strong><p>estimated profit / pack</p><small>At a proposed selling price of Rs 1,375.</small></div></div></div>
+      </section>
+
+      <section id="gallery" class="gallery section-shell section-pad"><div class="section-kicker">05 / the visual story</div><div class="gallery-head"><h2>Made to be <em>shared.</em></h2><button class="text-link" data-open-video>Play the logo film <span>↗</span></button></div><div class="gallery-grid"><button class="gallery-tile tile-tall" data-lightbox="./public/images/melloora-poster.jpg"><img src="./public/images/melloora-poster.jpg" alt="Melloora launch poster" /><span>the complete mood board</span></button><button class="gallery-tile tile-wide" data-lightbox="./public/images/melloora-poster.jpg"><img src="./public/images/melloora-poster.jpg" alt="Melloora product showcase" /><span>love bloom / sunny smile</span></button><div class="gallery-quote"><div class="quote-mark">“</div><p>We are not just selling a cookie. We are packaging a moment.</p><small>— MELLOORA / group 21</small></div></div></section>
+
+      <section class="business section-pad"><div class="section-shell business-inner"><div><div class="section-kicker">06 / a thoughtful business</div><h2>Small enough to gift often.<br /><em>Special enough to remember.</em></h2><p>MELLOORA sits in the space between an impulse snack and an expensive hamper — where personal meaning, visual delight and student-friendly pricing meet.</p><button class="button button-dark" data-scroll="#top">Back to the beginning <span>↑</span></button></div><div class="price-card"><span>unit economics</span><div class="price-row"><small>cost to make</small><b>Rs 1,145</b></div><div class="price-row highlight"><small>proposed price</small><b>Rs 1,375</b></div><div class="price-row"><small>margin</small><b>Rs 230</b></div><div class="price-foot">A beautiful little business with room to grow into more moods.</div></div></div></section>
+
+      <section class="finale"><div class="finale-flare"></div><div class="section-shell finale-inner"><p class="eyebrow">every mood deserves something special</p><h2>MELLOORA<sup>®</sup></h2><p>Pick your mood. Pick your meal.</p><div class="finale-line"></div><small>Introduction to Entrepreneurship · BCOM 12283 · Group 21 · 2026</small></div></section>
+    </main>
+
+    <div class="video-modal" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="video-dialog"><button class="modal-close" data-close-modal aria-label="Close">×</button><video controls muted loop playsinline src="./public/animations/melloora-logo.mp4"></video><p>MELLOORA — a little feeling in every package.</p></div></div>
+    <div class="lightbox" aria-hidden="true"><button class="lightbox-close" data-close-lightbox>×</button><img alt="Expanded Melloora visual" /></div>
+    <footer class="mobile-footer"><a href="#top">MELLOORA<span>®</span></a><span>MOOD MEAL</span></footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
